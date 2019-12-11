@@ -24,8 +24,7 @@ def cure_combined(belly):
     total_grams += pink
     print("{:>3.0f} g pink salt".format(total_grams))
 
-belly = input("How many pounds pork belly?: ")
-belly = int(belly)
+belly = float(input("How many pounds pork belly?: "))
 
 print()
 print("Recipe")
