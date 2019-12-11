@@ -1,5 +1,7 @@
 # Densmore Farms
 
-# Repository for all things Densmore.
+Densmore Farms specializes in small batch smoked bacon and fish. Our bacon and fish are cured with simple combinations of salt, sugar, and pepper. We smoke over locally source fruit trees, and we let the wood do the work imparting its unique flavor profile. 
 
-# 12/11/19: Upload baconcure.py
+The purpose of this repository is to maintain recipes, python code, and design files.
+
+12/11/19: Upload baconcure.py
