@@ -1,3 +1,6 @@
+# Densmore Farms recipe for bacon cure
+# Original recipe from Project Smoke by Steven Raichlen
+
 def cure_recipe(belly):
     salt = belly * 15
     sugar = belly * 20
@@ -24,8 +27,9 @@ def cure_combined(belly):
     total_grams += pink
     print("{:>3.0f} g pink salt".format(total_grams))
 
+# input the pounds of the pork belly to be cured
 belly = float(input("How many pounds pork belly?: "))
-
+# recipe output
 print()
 print("Recipe")
 cure_recipe(belly)
