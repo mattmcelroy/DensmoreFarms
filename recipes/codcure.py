@@ -22,7 +22,10 @@ def codcure(pounds):
 	elif pounds > 18 and pounds <= 24:
 		buckets = 4
 	print()
-	print("{} buckets of brine".format(buckets))
+	
+	print(f"""
+	{buckets} buckets of brine
+	""")
  
 	# Recipe per 6 quart bucket (3 quarts brine)
 	# original recipe amount * (3/8)
@@ -33,23 +36,26 @@ def codcure(pounds):
 	bayleaves = 6 * (3/8)
 	garlic = 1 * (3/8)
 	
-	print()
-	print("Recipe per bucket")
-	print("{} gallons warm water".format(water))
-	print("{} cups brown sugar".format(sugar))
-	print("{} cups kosher".format(salt))	
-	print("{} tablespoons black pepper".format(pepper))
-	print("{} bay leaves".format(bayleaves))
-	print("{} tablespoons garlic powder".format(garlic))
-	print()
-	print("Total batch recipe")
-	print("{} gallons warm water".format(water*buckets))
-	print("{} cups brown sugar".format(sugar*buckets))
-	print("{} cups kosher".format(salt*buckets))	
-	print("{} tablespoons black pepper".format(pepper*buckets))
-	print("{} bay leaves".format(bayleaves*buckets))
-	print("{} tablespoons garlic powder".format(garlic*buckets))
-	print()
+	print(f"""
+	Recipe per bucket
+	
+	{water} gallons warm water
+	{sugar} cups brown sugar
+	{salt} cups kosher salt
+	{pepper} tablespoons black pepper
+	{bayleaves} bay leaves
+	{garlic} tablespoons garlic powder
+	
+	Total batch recipe
+	
+	{water * buckets} gallons warm water
+	{sugar * buckets} cups brown sugar
+	{salt * buckets} cups kosher
+	{pepper * buckets} tablespoons black pepper
+	{bayleaves * buckets} bay leaves
+	{garlic * buckets} tablespoons garlic powder
+	
+	""")
 	
 # run the function to get the recipe
 codcure(pounds)
