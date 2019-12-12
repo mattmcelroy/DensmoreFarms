@@ -47,7 +47,7 @@ def codcure(pounds):
 	print("{} cups brown sugar".format(sugar*buckets))
 	print("{} cups kosher".format(salt*buckets))	
 	print("{} tablespoons black pepper".format(pepper*buckets))
-	print("{} bay leaves".format(bayleaves))
+	print("{} bay leaves".format(bayleaves*buckets))
 	print("{} tablespoons garlic powder".format(garlic*buckets))
 	print()
 	
